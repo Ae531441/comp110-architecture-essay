@@ -1,0 +1,64 @@
+\documentclass{scrartcl}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage[none]{hyphenat}
+
+\title{A review of comvexity based collision detections within 2D game engines}
+\subtitle{COMP110 - Computer Architecture Essay}
+
+\author{Angus Edwards}
+
+\begin{document}
+
+\maketitle
+
+\section*{Topic}
+
+My essay will be on
+% Uncomment as appropriate:
+   convexity-based collision detection for a 2D game engine.
+%   procedural level generation for a 2D platform game.
+
+\section*{Paper 1}
+% This is an example! Replace the details with a paper relevant to your chosen topic.
+\begin{description}
+\item[Title:] Real-time collision detection
+\item[Citation:] \cite{Ericson, Christer}
+\item[Full text link:] \url{https://q3k.org/gentoomen/Game%20Development/Programming/Real-Time%20Collision%20Detection.pdf}
+\item[Comments:] One of the most cited and well established articles on collision detection, it's particularly thorough and would be a good choice for one of the 3 articles to review.
+\end{description}
+
+\section*{Paper 2}
+\begin{description}
+\item[Title:] Collision detection and avoidance in computer controlled manipulators
+\item[Citation:] \cite{Udupa, Shriram Mahabal}
+\item[Full text link:] http://ijcai.org/Past%20Proceedings/IJCAI-77-VOL2/PDF/041.pdf
+\item[Comments:] Interesting article on collisions but based on computer science more than 2D gaming unfortunately.
+\end{description}
+
+\section*{Paper 3}
+\begin{description}
+\item[Title:] Game engine architecture
+\item[Citation:] \cite{gregory2009game}
+\item[Full text link:] http://forum.dronprogs.org/files_for_my_posts/books/GEA.pdf
+\item[Comments:] Very in depth analysis of collision detection even with some links and comparisons to changes from 2D to 3D, generally has a lot of information and well cited.
+\end{description}
+
+\section*{Paper 4}
+\begin{description}
+\item[Title:] Convex hull covering of polygonal scenes for accurate collision detection in games
+\item[Citation:] \cite{liu2008convex}
+\item[Full text link:] https://www.cs.sfu.ca/~haoz/pubs/liu_zhang_gi08.pdf
+\item[Comments:] Slightly different take on collision detection, a lot of useful diagrams and maths that approach the subject differently from the other papers.
+\end{description}
+
+\section*{Paper 5}
+\begin{description}
+\item[Title:] 2D Simulation of Rigid Bodies
+\item[Full text link:] http://www.draknek.org/physics/cs310-report.pdf
+\end{description}
+
+\bibliographystyle{ieeetr}
+\bibliography{comp110_architecture}
+
+\end{document}
